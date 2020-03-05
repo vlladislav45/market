@@ -1,0 +1,168 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Shell
+\* ------------------------------------------------------------ */
+
+.shell { padding: 46px 57px 45px 57px; margin: auto; max-width: 581px; background-color: #c5a499; }
+
+/* ------------------------------------------------------------ *\
+    Body
+\* ------------------------------------------------------------ */
+
+body { margin: auto; width: 1366px; background-color: #6b4e50; }
+
+/* ------------------------------------------------------------ *\
+    Responsive
+\* ------------------------------------------------------------ */
+
+/*@media only screen and (max-width: 1330px) {*/
+/*    body { width: 1330px; background: url("../images/background-1330.jpg");}*/
+/*}*/
+
+/* ------------------------------------------------------------ *\
+    Header
+\* ------------------------------------------------------------ */
+
+header { margin: auto; width: 1106px; background: url(../images/wings.png); background-repeat: no-repeat; }
+header:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Header unordered list
+\* ------------------------------------------------------------ */
+
+.header-ul { float: left; margin: 5em 0 5px 6.2em; }
+.header-ul:after { content: ''; display: block; clear: both; }
+
+
+/*Header Buttons*/
+.header-btn { float: left; text-align: center; list-style: none; width: 163px; height: 27px; }
+.header-btn a { text-decoration: none; color: #250801; }
+.header-btn + .header-btn { margin-left: 80px; }
+.header-btn.button { background: url(../images/falling_menu-button.png); background-repeat: no-repeat; }
+.header-btn.sec-btn { background: url(../images/falling_menu-button.png); background-repeat: no-repeat; }
+
+/* ------------------------------------------------------------ *\
+    Profile
+\* ------------------------------------------------------------ */
+
+.profile { padding: 26px; margin: auto; float: left; background: url(../images/profile.png);
+           background-repeat: no-repeat; }
+.profile:hover { opacity: 0.7; }
+.profile:hover .form-btn { opacity: 1; visibility: visible; }
+
+/*Form Buttons*/
+.form-btn { opacity: 0; visibility: hidden; list-style: none; cursor: pointer; }
+.form-btn + .form-btn { margin-top: 5px; }
+.form-btn a { text-decoration: none; color: #6a4d4f; }
+
+/* NEW PROFILE */
+.new-profile { padding: 13px; border-radius: 50px; width: 80px; height: 80px; }
+.new-profile:hover .new-form-btn { opacity: 1; visibility: visible; }
+.new-profile:hover .new-form-btn a { font-size: 1.2em; color: purple; }
+
+/* NEW FORM BUTTONS */
+.new-form-btn { opacity: 0; visibility: hidden; list-style: none; cursor: pointer; }
+.new-form-btn + .new-form-btn { margin-top: 5px; }
+.new-form-btn:hover a { text-decoration: none; }
+
+/* ------------------------------------------------------------ *\
+    Main
+\* ------------------------------------------------------------ */
+
+main { padding: 120px; margin: auto; width: 906px; background-color: #250801; }
+
+/* ------------------------------------------------------------ *\
+    Mountains
+\* ------------------------------------------------------------ */
+
+.mountains { width: 674px; height: 271px; background: url(../images/mountains.png); background-repeat: no-repeat; }
+.mountains:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    Temp container for padding
+\* ------------------------------------------------------------ */
+
+.temp-container { padding: 50px 29px 0 26px; }
+
+/* ------------------------------------------------------------ *\
+    Main Frames
+\* ------------------------------------------------------------ */
+
+.frames { padding-bottom: 195px;}
+
+/*Frame1*/
+.frame1 {  float: left; padding: 18px;
+            width: 210px; height: 179px; background: url(../images/frame1.png); background-repeat: no-repeat; }
+.frame1 span { text-align: center; }
+/*Frame2*/
+.frame2 { float: right; padding: 18px; width: 406px; height: 179px; background: url(../images/frame2.png); background-repeat: no-repeat; }
+.frame2 span { text-align: center; }
+
+/* ------------------------------------------------------------ *\
+    Main Navigation
+\* ------------------------------------------------------------ */
+
+.main-nav { margin: auto; clear: both; position: relative; z-index: 1; width: 674px; height: 66px; background: url(../images/logo-for-diamond.png);
+    background-repeat: no-repeat;}
+.main-nav:after { content: ''; display: block; clear: both; }
+
+/*Diamond Button = HOme BUTTOn*/
+.diamond { margin: auto; cursor: pointer;
+    list-style: none; width: 74px; height: 55px; background: url(../images/diamond.png); background-repeat: no-repeat; }
+
+/*Container of the gray buttons*/
+.container { float: left; margin-top: 30px; }
+.container:after { content: ''; display: block; clear: both; }
+/*REVERSE CONTAINER*/
+.reverse { float: right; margin: -25px 8px 0 0; }
+.reverse:after { content: ''; display: block; clear: both; }
+
+/* ------------------------------------------------------------ *\
+    For all gray buttons
+\* ------------------------------------------------------------ */
+
+.btn { padding: 10px; text-align: center; font-size: 1.2em; list-style: none; }
+.btn a { text-decoration: none; }
+
+/* Gray Buttons*/
+.btn.custom-btn1 { float: left; width: 146px; height: 40px; background: url(../images/btn1.png); background-repeat: no-repeat; }
+.btn.custom-btn2 { float: left; width: 176px; height: 40px; background: url(../images/btn2.png); background-repeat: no-repeat; }
+.btn.custom-btn3 { float: left; width: 177px; height: 40px; background: url(../images/btn3.png); background-repeat: no-repeat; }
+.btn.custom-btn4 { float: right; width: 135px; height: 40px; background: url(../images/btn4.png); background-repeat: no-repeat; }
+
+/* ------------------------------------------------------------ *\
+    Features
+\* ------------------------------------------------------------ */
+
+.features { padding: 75px 59px 55px 59px; width: 674px; background-color: #b8928d; }
+
+/* ------------------------------------------------------------ *\
+    Articles
+\* ------------------------------------------------------------ */
+
+.articles { margin-bottom: 80px; }
+
+/*Article*/
+.article { padding: 3px; width: 207px; height: 207px; background: url(../images/article-body.png); background-repeat: no-repeat; }
+.article + .article { margin-left: 7%; }
+
+/*Article Body for themes etc..*/
+.article-frame { padding: 143px 25px 0 25px; width: 200px; height: 199px; background: url(../images/article-frame.png); background-repeat: no-repeat; }
+
+/*Custom Button*/
+.custom { padding: 15px 20px 0 20px; text-align: center; list-style: none; width: 154px; height: 55px;
+          background: url(../images/btn-for-article.png); background-repeat: no-repeat; }
+
+.custom a { border-radius: 5px;
+            padding: 5px; width: 50%; font-size: 17px; text-decoration: none; color: white; background-color: #555555; }
+.custom a:hover { text-decoration: underline; }
+
+/* Hidden and Showing */
+.hide { display: none; }
+
+.show { display: flex; }

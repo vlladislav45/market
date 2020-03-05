@@ -1,0 +1,15 @@
+/* ------------------------------------------------------------ *\
+    Footer
+\* ------------------------------------------------------------ */
+
+footer { margin: 100px auto auto auto; width: 1106px; }
+
+/* ------------------------------------------------------------ *\
+    Down footer
+\* ------------------------------------------------------------ */
+
+.footer { padding: 50px 0 0 250px; width: 1106px; height: 83px; background: url(../images/footer.png); background-repeat: no-repeat; }
+
+/*Paragraph*/
+.footer p { }
+

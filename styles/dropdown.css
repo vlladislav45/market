@@ -1,0 +1,18 @@
+/* ------------------------------------------------------------ *\
+    Dropdown menu
+\* ------------------------------------------------------------ */
+header ul li ul { position: absolute; display: none; }
+header ul li ul li { list-style: none; }
+.header-ul li:hover ul { }
+
+.dropdown li { padding: 5px; margin-left: 27px; width: 75%;  }
+.dropdown li:first-child { margin-top: 10px; }
+.dropdown a { text-decoration: none; color: #d6b89e; cursor: pointer; }
+.dropdown a:hover { text-decoration: underline; }
+.dropdown li:hover { border-radius: 2px; background: #ca905d; }
+.dropdown.first { width: 168px; height: 279px; background: url(../images/falling_menu.png); }
+.dropdown.sec { width: 168px; height: 279px; background: url(../images/falling_menu_Mirr.png); }
+
+
+
+

@@ -1,0 +1,80 @@
+/* ------------------------------------------------------------ *\
+    Reset
+\* ------------------------------------------------------------ */
+
+* { padding: 0; margin: 0; box-sizing: border-box; }
+
+/* ------------------------------------------------------------ *\
+    Body
+\* ------------------------------------------------------------ */
+
+body { padding: 5%;  background-image:  url(../../images/background.jpg); }
+
+/* ------------------------------------------------------------ *\
+    Logo
+\* ------------------------------------------------------------ */
+.container{ position: relative; top:8.3em;  }
+.logo { margin:auto; height: 18.7em; max-height: 18.7em; max-width:62em; width: 100%;
+    background: url("../../images/Logo.png"); background-repeat: no-repeat; background-size: 100%;}
+
+/* ------------------------------------------------------------ *\
+    Form
+\* ------------------------------------------------------------ */
+
+form { padding: 7% 7% 2% 7%; margin: auto; border: 10px solid #BA9592; width: 50%; background-color: #ccad9d; }
+
+/* ------------------------------------------------------------ *\
+    Inputs
+\* ------------------------------------------------------------ */
+
+form input { padding: .375rem .75rem; font-size: 1rem; }
+
+.form-input { text-align: center; }
+.form-input + .form-input { margin-top: 10px; }
+
+/*Submit Button*/
+form input[type='submit'] { border-radius: 7px; border-style: none; margin: 5% 25% 0 25%;
+                            width: 50%; color: #fff; background-color: #ef7e47; cursor: pointer; }
+form input[type='submit']:hover { text-decoration: underline; }
+
+/*Check Box*/
+form input[type='checkbox'] { margin: 2.2em 0 0 1em; display: inline; }
+
+/* ------------------------------------------------------------ *\
+    Paragraphs
+\* ------------------------------------------------------------ */
+h1 { text-align: center; margin:10%; }
+
+p { margin-top: 15px; text-align: center; }
+
+a { text-decoration: none; }
+a:hover { color: #0056b3;
+    text-decoration: underline;}
+
+/* ------------------------------------------------------------ *\
+    Form Register Btn
+\* ------------------------------------------------------------ */
+
+.form-register { text-align: center; }
+
+/*List*/
+.form-register li { padding: 7px; border-radius: 7px; border-style: none; margin-top: 60px; display: inline-block;
+                    text-align: center;
+                    width: 25%; color: #fff; background-color: #ef7e47; cursor: pointer; list-style: none;  }
+.form-register li a { color: white; }
+
+/* ------------------------------------------------------------ *\
+    Responsive
+\* ------------------------------------------------------------ */
+
+@media only screen and (max-width: 1330px) {
+    body { width: 1330px; }
+}
+
+@media only screen and (max-width: 1024px) {
+    body { width: 1024px; }
+}
+
+@media only screen and (max-width: 660px) {
+    body { width: 660px; }
+}
