@@ -1,7 +1,7 @@
 # market
 PHP 5.6.5 Website
 
-##For contributors/developers ##Tech Stack
+##For contributors/developers
 
 Front End
 * HTML&CSS
